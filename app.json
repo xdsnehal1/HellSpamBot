@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TheMafiaBot/MafiaSpamBot",
-  "website": "https://github.com/TheMafiaBot/",
-  "success_url": "https://t.me/MafiaBot_Support",
+  "repository": "https://github.com/TeamHell/HellSpamBot",
+  "website": "https://github.com/TeamHell/",
+  "success_url": "https://t.me/HellSpamBot",
   "env": {
     "BOT_TOKEN1": {
       "description": "Enter Your Bot Token 1. Master Bot (Main Bot). Get It From @BotFather!",
