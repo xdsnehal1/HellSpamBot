@@ -17,7 +17,7 @@
 # Credits ✨
 
 - [Akhil](https://GitHub.com/akhilprs) for writing codes and maintaining it.
-- [Himanshu)(https://github.com/H1M4N5HU0P) for his Mafia Spam Bot.
+- [Himanshu](https://github.com/H1M4N5HU0P) for his Mafia Spam Bot.
 
 # Hosting 🔥
 
