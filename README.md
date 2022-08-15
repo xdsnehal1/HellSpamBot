@@ -31,7 +31,7 @@
 # Support 🧑‍💻
 
 <p align="left"><a href="https://telegram.dog/HellSpamBot"><img src="https://img.shields.io/badge/JOIN%20UPDATE%20CHANNEL-red?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
-<p align="left"><a href="https://telegram.dog/HELL_PROJECTS"><img src="https://img.shields.io/badge/JOIN%20SUPPORT%20CHAT-yellow?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
+<p align="left"><a href="https://t.me/HellSpam_SupportChat"><img src="https://img.shields.io/badge/JOIN%20SUPPORT%20CHAT-yellow?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
 
 # Credits ♈
 
