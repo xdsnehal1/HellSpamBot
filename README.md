@@ -14,11 +14,6 @@
 - 10 Bot Token from [BotFather](https://telegram.dog/botfather).
 - Other Vars are **Optional**.
 
-# Credits ✨
-
-- [Akhil](https://GitHub.com/akhilprs) for writing codes and maintaining it.
-- [Himanshu](https://github.com/H1M4N5HU0P) for his Mafia Spam Bot.
-
 # Hosting 🔥
 
 **•• Deploy to Heroku ••**
@@ -38,3 +33,7 @@
 <p align="left"><a href="https://telegram.dog/HELL_X_EMPIRE"><img src="https://img.shields.io/badge/JOIN%20UPDATE%20CHANNEL-red?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
 <p align="left"><a href="https://telegram.dog/HELL_PROJECTS"><img src="https://img.shields.io/badge/JOIN%20SUPPORT%20CHAT-yellow?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
 
+# Credits ✨
+
+- [Akhil](https://GitHub.com/akhilprs) for writing codes and maintaining it.
+- [Himanshu](https://github.com/H1M4N5HU0P) for his Mafia Spam Bot.
