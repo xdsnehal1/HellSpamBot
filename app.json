@@ -59,7 +59,7 @@
     "BOT_TOKEN10": {
       "description": "Enter Your Bot Token 5. Get It From @BotFather!",
       "value": "",
-      "required": false.     
+      "required": false
     },
     "OWNER_NAME": {
       "description": "Enter Your Good Name Of Telegram!",
