@@ -42,5 +42,5 @@
 
 Made with Love >\
 
-<p align="left"><a href="https://telegram.dog/The_Taragaryens_Empire"><img src="https://img.shields.io/badge/THE%20TARAGARYENS%20EMPIRE-blue?style=for-the-badge&logo=telegram" width="350""/</a>  </p>
+<p align="left"><a href="https://t.me/THE_TARGARYENS_EMPIRE"><img src="https://img.shields.io/badge/THE%20TARAGARYENS%20EMPIRE-blue?style=for-the-badge&logo=telegram" width="350""/</a>  </p>
 
