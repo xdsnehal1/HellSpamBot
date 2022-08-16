@@ -2,11 +2,16 @@
 ALIVE_CMD = """
 Check Bot Alive Or What!
 ✪ `/alive` - To Check Am I Alive! - `(SUDO:- True)`
+
+© @HellSpamBot
+
 """
 
 PING_CMD =  """
 Check Bot Speed Using Ping!
 ✪ `/ping` - To Check My Ping! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
 
 RAID_CMD = """
@@ -15,12 +20,16 @@ To Raid On Enemies!
 ✪ `/sraid` - To Stop Mention Raid On Enemies! Use In Reply Of User Message Or Give Username! - `(SUDO:- True)`
 ✪ `/raid` - To Start Raid On Enemy! - `(SUDO:- True)`
 ✪ `/draid` - To  Stop Raid On Enemy! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
 
 REPLYRAID_CMD = """
 To Reply Raid On Enemies!
 ✪ `/replyraid` - To Start Reply Raid On Enemies! Use In Reply Of User Message Or Give Username! - `(SUDO:- True)`
 ✪ `/dreplyraid` - To Stop Reply Raid On Enemies! Use In Reply Of User Message Or Give Username! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
 
 SPAM_CMD = """
@@ -30,16 +39,22 @@ To Spam Messages In Groups!
 ✪ `/mspam` - Reply To A Media To Spam In Range Of 99999 Messages! - `(SUDO:- True)`
 ✪ `/uspam` - Give A Text Or Reply To Message To Unlimited Spam Messages! - `(SUDO:- True)`
 ✪ `/ustop` - To Stop Unlimited Spam Messages! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
 
 PSPAM_CMD = """
 To Spam Porn In Groups!
 ✪ `/pspam` - To Spam Porn  In Groups! Also You Can Put Text In Caption Giving Text Or Replying To Message! - `(SUDO:- True)`
 ✪ `/pstop` - To Stop Porn Spam! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
 
 EXTRA_CMD = """
 To Add Extra Modules In Spam Bot! Only Work In Master Bot (Master Bot: Which Running On Bot Token No. 1!)!
 ✪ `/install` - To Install Extra Plugin In SpamBot! - `(SUDO:- True)`
 ✪ `/uninstall` - To Uninstall Plugin In SpamBot! - `(SUDO:- True)`
+
+© @HellSpamBot
 """
