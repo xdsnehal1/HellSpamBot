@@ -8,7 +8,7 @@ from hellspam import *
 from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10
 
 def load_plugs(plugname):
-    modules = Path(f"hellspam.plugins/{plugname}.py")
+    modules = Path(f"hellspam/plugins/{plugname}.py")
     myfiles = f"hellspam.plugins.{plugname}"
     spec = importlib.util.spec_from_file_location(myfiles, modules)
     load = importlib.util.module_from_spec(spec)
