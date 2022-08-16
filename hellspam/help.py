@@ -1,5 +1,5 @@
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from hellspam.helpers.commands import *
 from telethon import events, Button
 
@@ -29,11 +29,6 @@ BACK = [
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/help'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/help'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/help'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/help'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/help'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/help'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/help'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/help'))
 
 async def help(e):
     if e.sender_id in MY_USERS:
