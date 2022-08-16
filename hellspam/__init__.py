@@ -1,4 +1,4 @@
-import asyncio
+Yimport asyncio
 import logging
 from telethon import TelegramClient
 from hellspam.config import Config
@@ -151,20 +151,101 @@ async def main():
        if BOT_TOKEN6:
         print("Working On Bot Token 6!")
         try:
-            SpamBot6 = TelegramClient("HellSpamBot5", api_id=API_ID, api_hash=API_HASH)
+            SpamBot6 = TelegramClient("HellSpamBot6", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 6 OK!")
-            await SpamBot6.start(bot_token=BOT_TOKEN5)
+            await SpamBot6.start(bot_token=BOT_TOKEN6)
         except Exception as e:
             print(e)
             pass
     else:
-        print("Bot Token 5 Is'nt Available Or Invalid Bot Token")
+        print("Bot Token 6 Is'nt Available Or Invalid Bot Token")
         try:
-            session_name = "HellSpamBot5"
-            SpamBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
-            await SpamBot5.start(bot_token=BOT_TOKEN5)
+            session_name = "HellSpamBot6"
+            SpamBot6 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot6.start(bot_token=BOT_TOKEN6)
         except Exception as e:
             pass
+
+   
+       if BOT_TOKEN7:
+        print("Working On Bot Token 7!")
+        try:
+            SpamBot7 = TelegramClient("HellSpamBot7", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token 7 OK!")
+            await SpamBot7.start(bot_token=BOT_TOKEN7)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Bot Token 7 Is'nt Available Or Invalid Bot Token")
+        try:
+            session_name = "HellSpamBot7"
+            SpamBot7 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot7.start(bot_token=BOT_TOKEN7)
+        except Exception as e:
+            pass
+
+
+     
+       if BOT_TOKEN8:
+        print("Working On Bot Token 8!")
+        try:
+            SpamBot8 = TelegramClient("HellSpamBot8", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token 8 OK!")
+            await SpamBot8.start(bot_token=BOT_TOKEN8)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Bot Token 8 Is'nt Available Or Invalid Bot Token")
+        try:
+            session_name = "HellSpamBot8"
+            SpamBot8 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot8.start(bot_token=BOT_TOKEN8)
+        except Exception as e:
+            pass
+
+
+   
+       if BOT_TOKEN9:
+        print("Working On Bot Token 9!")
+        try:
+            SpamBot9 = TelegramClient("HellSpamBot9", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token 9 OK!")
+            await SpamBot9.start(bot_token=BOT_TOKEN9)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Bot Token 9 Is'nt Available Or Invalid Bot Token")
+        try:
+            session_name = "HellSpamBot9"
+            SpamBot9 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot9.start(bot_token=BOT_TOKEN9)
+        except Exception as e:
+            pass
+
+
+
+
+       if BOT_TOKEN10:
+        print("Working On Bot Token 10!")
+        try:
+            SpamBot10 = TelegramClient("HellSpamBot10", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token 10 OK!")
+            await SpamBot10.start(bot_token=BOT_TOKEN10)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Bot Token 10 Is'nt Available Or Invalid Bot Token")
+        try:
+            session_name = "HellSpamBot10"
+            SpamBot10 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot10.start(bot_token=BOT_TOKEN10)
+        except Exception as e:
+            pass
+
 
             
 loop = asyncio.get_event_loop()
