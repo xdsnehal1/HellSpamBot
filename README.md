@@ -3,7 +3,7 @@
 # HELL SPAM BOT 😈
 
 # Features 📝
-- 10 Token Clients.
+- 5 Token Clients.
 - Fastest Speed depend upon the Server.
 - 24x7 Support from the Team.
 - Everytime a New Update is done whenever needed.
@@ -11,7 +11,7 @@
 # Requirements 🗝️
 
 - API ID and Hash from [Telegram Web](https://my.telegram.org).
-- 10 Bot Token from [BotFather](https://telegram.dog/botfather).
+- 5 Bot Token from [BotFather](https://telegram.dog/botfather).
 - Other Vars are **Optional**.
 
 # Hosting 🔥
