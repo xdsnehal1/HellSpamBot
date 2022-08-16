@@ -8,11 +8,11 @@ master = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
 
 
 alive_msg = f"""
-Hell Spam Bot Is Alive!
-My Master:- {master}
-Bot Version:- `{BOT_VERSION}`
-Telethon Version:- `{version.__version__}`
 {BIO_MSG}
+✪ Master:- {master}
+✪ Bot Version:- `{BOT_VERSION}`
+✪ Creator:- [Akhil](t.me/akhilprs)
+✪ Telethon Version:- `{version.__version__}`
 
 © @HellSpamBot
 """
