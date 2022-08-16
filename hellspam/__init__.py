@@ -114,36 +114,55 @@ async def main():
     if BOT_TOKEN4:
         print("Working On Bot Token 4!")
         try:
-            MafiaBot4 = TelegramClient("MafiaSpamBot4", api_id=API_ID, api_hash=API_HASH)
+            SpamBot4 = TelegramClient("HellSpamBot4", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 4 OK!")
-            await MafiaBot4.start(bot_token=BOT_TOKEN4)
+            await SpamBot4.start(bot_token=BOT_TOKEN4)
         except Exception as e:
             print(e)
             pass
     else:
         print("Bot Token 4 Is'nt Available Or Invalid Bot Token")
         try:
-            session_name = "MafiaSpamBot4"
-            MafiaBot4 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
-            await MafiaBot4.start(bot_token=BOT_TOKEN4)
+            session_name = "HellSpamBot4"
+            SpamBot4 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot4.start(bot_token=BOT_TOKEN4)
         except Exception as e:
             pass
     
     if BOT_TOKEN5:
         print("Working On Bot Token 5!")
         try:
-            MafiaBot5 = TelegramClient("MafiaSpamBot5", api_id=API_ID, api_hash=API_HASH)
+            SpamBot5 = TelegramClient("HellSpamBot5", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 5 OK!")
-            await MafiaBot5.start(bot_token=BOT_TOKEN5)
+            await SpamBot5.start(bot_token=BOT_TOKEN5)
         except Exception as e:
             print(e)
             pass
     else:
         print("Bot Token 5 Is'nt Available Or Invalid Bot Token")
         try:
-            session_name = "MafiaSpamBot5"
-            MafiaBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
-            await MafiaBot5.start(bot_token=BOT_TOKEN5)
+            session_name = "HellSpamBot5"
+            SpamBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot5.start(bot_token=BOT_TOKEN5)
+        except Exception as e:
+            pass
+
+       
+       if BOT_TOKEN6:
+        print("Working On Bot Token 6!")
+        try:
+            SpamBot6 = TelegramClient("HellSpamBot5", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token 6 OK!")
+            await SpamBot6.start(bot_token=BOT_TOKEN5)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Bot Token 5 Is'nt Available Or Invalid Bot Token")
+        try:
+            session_name = "HellSpamBot5"
+            SpamBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            await SpamBot5.start(bot_token=BOT_TOKEN5)
         except Exception as e:
             pass
 
