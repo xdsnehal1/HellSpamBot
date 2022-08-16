@@ -3,11 +3,22 @@ from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from telethon import events, Button
 
 
-data  = [
-    Button.url("Channel", url="t.me/HellSpamBot"),
-    Button.url("Repo", url="https://GitHub.com/TeamHell/HellSpamBot"),
-    Button.url("Group", url="t.me/HellSpam_SupportChat")
-]
+# data  = [
+#    Button.url("Channel", url="t.me/HellSpamBot"),
+#    Button.url("Repo", url="https://GitHub.com/TeamHell/HellSpamBot"),
+#    Button.url("Group", url="t.me/HellSpam_SupportChat")
+# ]
+
+data = [
+                    [
+                      Button.url("Repo", "https://github.com/TeamHell/HellSpamBot"),
+                         ),
+                    ],
+                    [
+                      Button.url("Channel", "https://t.me/HellSpamBot"),
+                      Button.url("Support", "https://t.me/HellSpam_SupportChat")
+                   
+             ]
 
 
 @SpamBot1.on(events.NewMessage(incoming=True, pattern='/start'))
