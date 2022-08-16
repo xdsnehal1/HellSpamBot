@@ -148,8 +148,8 @@ async def main():
             pass
 
        
-       if BOT_TOKEN6:
-        print("Working On Bot Token 6!")
+     if BOT_TOKEN6:
+       print("Working On Bot Token 6!")
         try:
             SpamBot6 = TelegramClient("HellSpamBot6", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 6 OK!")
