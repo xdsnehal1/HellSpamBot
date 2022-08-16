@@ -1,4 +1,4 @@
-Yimport asyncio
+import asyncio
 import logging
 from telethon import TelegramClient
 from hellspam.config import Config
