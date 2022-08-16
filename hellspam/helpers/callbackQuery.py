@@ -95,6 +95,22 @@ async def no(e):
         await e.edit(f"{SPAM_CMD}", buttons=BACK)
 
 
+@SpamBot1.on(events.CallbackQuery(data=b'back'))
+@SpamBot2.on(events.CallbackQuery(data=b'back'))
+@SpamBot3.on(events.CallbackQuery(data=b'back'))
+@SpamBot4.on(events.CallbackQuery(data=b'back'))
+@SpamBot5.on(events.CallbackQuery(data=b'back'))
+@SpamBot6.on(events.CallbackQuery(data=b'back'))
+@SpamBot7.on(events.CallbackQuery(data=b'back'))
+@SpamBot8.on(events.CallbackQuery(data=b'back'))
+@SpamBot9.on(events.CallbackQuery(data=b'back'))
+@SpamBot10.on(events.CallbackQuery(data=b'back'))
+async def no(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit("This Is Help Command!!!", buttons=Buttons)
+
 @SpamBot1.on(events.CallbackQuery(data=b'pspam'))
 @SpamBot2.on(events.CallbackQuery(data=b'pspam'))
 @SpamBot3.on(events.CallbackQuery(data=b'pspam'))
