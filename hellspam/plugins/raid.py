@@ -1,6 +1,6 @@
 import random
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10 
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5 
 from hellspam.helpers.gspam import GSPAM
 from telethon import events
 
@@ -13,11 +13,6 @@ fraid = False
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/mraid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/mraid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/mraid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/mraid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/mraid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/mraid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/mraid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/mraid'))
 async def mraid(e):
     if e.sender_id in MY_USERS:
         name = e.sender.first_name
@@ -86,11 +81,6 @@ async def mraid(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/sraid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/sraid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/sraid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/sraid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/sraid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/sraid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/sraid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/sraid'))
 async def sraid(e):
     if e.sender_id in MY_USERS:
         global myraid
@@ -126,11 +116,6 @@ async def sraid(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/raid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/raid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/raid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/raid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/raid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/raid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/raid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/raid'))
 async def raid(e):
     if e.sender_id in MY_USERS:
         global fraid
@@ -146,11 +131,6 @@ async def raid(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/draid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/draid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/draid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/draid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/draid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/draid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/draid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/draid'))
 async def draid(e):
     if e.sender_id in MY_USERS:
         global fraid
