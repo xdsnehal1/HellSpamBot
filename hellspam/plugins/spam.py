@@ -1,5 +1,5 @@
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10 
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from telethon import events
 
 a = False
@@ -9,11 +9,6 @@ a = False
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/spam'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/spam'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/spam'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/spam'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/spam'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/spam'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/spam'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/spam'))
 async def spam(e):
     if e.sender_id in MY_USERS:
         try:
@@ -38,11 +33,6 @@ async def spam(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/bigspam'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/bigspam'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/bigspam'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/bigspam'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/bigspam'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/bigspam'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/bigspam'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/bigspam'))
 async def bigspam(e):
     if e.sender_id in MY_USERS:
         try:
@@ -67,11 +57,6 @@ async def bigspam(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/mspam'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/mspam'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/mspam'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/mspam'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/mspam'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/mspam'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/mspam'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/mspam'))
 async def mspam(e):
     if e.sender_id in MY_USERS:
         try:
@@ -95,11 +80,6 @@ async def mspam(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern="/uspam"))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern="/uspam"))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern="/uspam"))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern="/uspam"))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern="/uspam"))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern="/uspam"))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern="/uspam"))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern="/uspam"))
 async def uspam(e):
     if e.sender_id in MY_USERS:
         global a
@@ -127,11 +107,6 @@ async def uspam(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern="/ustop"))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern="/ustop"))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern="/ustop"))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern="/ustop"))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern="/ustop"))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern="/ustop"))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern="/ustop"))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern="/ustop"))
 async def ustop(e):
     if e.sender_id in MY_USERS:
         global a
