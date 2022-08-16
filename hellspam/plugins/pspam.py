@@ -1,6 +1,6 @@
 import random
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10 
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from hellspam.helpers.plinks import PLINKS
 from telethon import events
 
@@ -11,11 +11,6 @@ a = False
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/pspam'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/pspam'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/pspam'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/pspam'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/pspam'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/pspam'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/pspam'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/pspam'))
 async def pspam(e):
     if e.sender_id in MY_USERS:
         global a
@@ -53,11 +48,6 @@ async def pspam(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern="/pstop"))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern="/pstop"))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern="/pstop"))
-@SpamBot6on(events.NewMessage(incoming=True, pattern="/pstop"))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern="/pstop"))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern="/pstop"))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern="/pstop"))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern="/pstop"))
 async def ustop(e):
     if e.sender_id in MY_USERS:
         global a
