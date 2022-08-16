@@ -59,9 +59,8 @@ if len(argv) not in (1, 3, 4):
     except Exception as e:
         print(e)
         pass
-   try:
-      
-else:
+  
+  else:
     try:
         SpamBot1.run_until_disconnected()
     except Exception as e:
