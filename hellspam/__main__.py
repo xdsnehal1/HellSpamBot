@@ -14,7 +14,7 @@ def load_plugs(plugname):
     load = importlib.util.module_from_spec(spec)
     load.logger = logging.getLogger(plugname)
     spec.loader.exec_module(load)
-    sys.modules["spambot.plugins." + plugname] = load
+    sys.modules["hellspam.plugins." + plugname] = load
     print("Hell SpamBot - Successfully Imported " + plugname)
 
 if __name__ == "__main__":
