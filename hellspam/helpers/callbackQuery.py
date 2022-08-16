@@ -66,3 +66,25 @@ async def no(e):
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
         await e.edit(f"{RAID_CMD}", buttons=BACK
+
+
+
+@SpamBot1.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot2.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot3.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot4.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot5.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot6.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot7.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot8.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot9.on(events.CallbackQuery(data=b'replyraid'))
+@SpamBot10.on(events.CallbackQuery(data=b'replyraid'))
+
+
+
+
+async def no(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit(f"{REPLYRAID_CMD}", buttons=BACK)
