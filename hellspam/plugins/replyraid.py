@@ -1,6 +1,6 @@
 import random
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10 
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from hellspam.helpers.gspam import GSPAM
 from telethon import events
 
@@ -11,11 +11,6 @@ enemy = []
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 async def replyraid(e):
     if e.sender_id in MY_USERS:
         name = e.sender.first_name
@@ -88,11 +83,6 @@ async def replyraid(e):
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/dreplyraid'))
 async def dreplyraid(e):
     if e.sender_id in MY_USERS:
         global enemy
@@ -138,11 +128,6 @@ async def dreplyraid(e):
 @SpamBot3.on(events.NewMessage(incoming=True))
 @SpamBot4.on(events.NewMessage(incoming=True))
 @SpamBot5.on(events.NewMessage(incoming=True))
-@SpamBot6.on(events.NewMessage(incoming=True))
-@SpamBot7.on(events.NewMessage(incoming=True))
-@SpamBot8.on(events.NewMessage(incoming=True))
-@SpamBot9.on(events.NewMessage(incoming=True))
-@SpamBot10.on(events.NewMessage(incoming=True))
 async def fuck(e):
     global enemy
     message1 = random.choice(GSPAM)
