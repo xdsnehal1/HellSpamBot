@@ -15,9 +15,6 @@ from telethon import events
 @SpamBot8.on(events.CallbackQuery(data=b'alive'))
 @SpamBot9.on(events.CallbackQuery(data=b'alive'))
 @SpamBot10.on(events.CallbackQuery(data=b'alive'))
-
-
-
 async def no(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
@@ -36,10 +33,6 @@ async def no(e):
 @SpamBot8.on(events.CallbackQuery(data=b'ping'))
 @SpamBot9.on(events.CallbackQuery(data=b'ping'))
 @SpamBot10.on(events.CallbackQuery(data=b'ping'))
-
-
-
-
 async def no(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
@@ -60,7 +53,6 @@ async def no(e):
 @SpamBot8.on(events.CallbackQuery(data=b'raid'))
 @SpamBot9.on(events.CallbackQuery(data=b'raid'))
 @SpamBot10.on(events.CallbackQuery(data=b'raid'))
-
 async def no(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
@@ -79,12 +71,25 @@ async def no(e):
 @SpamBot8.on(events.CallbackQuery(data=b'replyraid'))
 @SpamBot9.on(events.CallbackQuery(data=b'replyraid'))
 @SpamBot10.on(events.CallbackQuery(data=b'replyraid'))
-
-
-
-
 async def no(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
         await e.edit(f"{REPLYRAID_CMD}", buttons=BACK)
+
+
+@SpamBot1.on(events.CallbackQuery(data=b'spam'))
+@SpamBot2.on(events.CallbackQuery(data=b'spam'))
+@SpamBot3.on(events.CallbackQuery(data=b'spam'))
+@SpamBot4.on(events.CallbackQuery(data=b'spam'))
+@SpamBot5.on(events.CallbackQuery(data=b'spam'))
+@SpamBot6.on(events.CallbackQuery(data=b'spam'))
+@SpamBot7.on(events.CallbackQuery(data=b'spam'))
+@SpamBot8.on(events.CallbackQuery(data=b'spam'))
+@SpamBot9.on(events.CallbackQuery(data=b'spam'))
+@SpamBot10.on(events.CallbackQuery(data=b'spam'))
+async def no(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit(f"{SPAM_CMD}", buttons=BACK)
