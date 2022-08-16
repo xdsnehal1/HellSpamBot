@@ -1,5 +1,5 @@
 from hellspam import *
-from hellspam import MafiaBot1, MafiaBot2, MafiaBot3, MafiaBot4, MafiaBot5
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5 
 from telethon import events, Button
 
 
@@ -15,11 +15,6 @@ data  = [
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/start'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/start'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/start'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/start'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/start'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/start'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/start'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/start'))
 async def start(e):
     if e.chat_id is e.sender_id:
         name = e.sender.first_name
