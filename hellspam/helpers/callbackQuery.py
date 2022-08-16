@@ -42,7 +42,7 @@ async def no(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
-        await e.edit(f"{RAID_CMD}", buttons=BACK
+        await e.edit(f"{RAID_CMD}", buttons=BACK)
 
 
 
