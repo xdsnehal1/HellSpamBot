@@ -33,6 +33,7 @@ import hellspam.helpers.callbackQuery
 
 print("\n\nHell Spam Bot Deployed Successfully!\n\n")
 
+
 if len(argv) not in (1, 3, 4):
     try:
         SpamBot1.disconnect()
@@ -59,8 +60,7 @@ if len(argv) not in (1, 3, 4):
     except Exception as e:
         print(e)
         pass
-  
-  else:
+else:
     try:
         SpamBot1.run_until_disconnected()
     except Exception as e:
@@ -86,4 +86,3 @@ if len(argv) not in (1, 3, 4):
     except Exception as e:
         print(e)
         pass
-     
