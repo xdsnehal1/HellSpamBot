@@ -10,15 +10,13 @@ from telethon import events, Button
 # ]
 
 data = [
-                    [
-                      Button.url("Repo", "https://github.com/TeamHell/HellSpamBot"),
-                         ),
-                    ],
-                    [
-                      Button.url("Channel", "https://t.me/HellSpamBot"),
-                      Button.url("Support", "https://t.me/HellSpam_SupportChat")
-                   
-             ]
+        Button.url("Repo", "https://github.com/TeamHell/HellSpamBot"),
+       ],
+      
+        [
+         Button.url("Channel", "https://t.me/HellSpamBot"),
+         Button.url("Support", "https://t.me/HellSpam_SupportChat")
+        ]
 
 
 @SpamBot1.on(events.NewMessage(incoming=True, pattern='/start'))
