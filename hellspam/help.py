@@ -1,5 +1,5 @@
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SoamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10
 from hellspam.helpers.commands import *
 from telethon import events, Button
 
