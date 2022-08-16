@@ -15,12 +15,12 @@ BOT_TOKEN4 = Config.BOT_TOKEN4
 BOT_TOKEN5 = Config.BOT_TOKEN5
 
 OWNER_ID = Config.OWNER_ID
-OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "MafiaSpamBot"
+OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "Akhil"
 OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "akhilprs"
 CO_OWNER_ID = Config.CO_OWNER_ID
 SUDO_USERS = Config.SUDO_USERS
-DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://telegra.ph/file/0db6ef22ae3b481c3891c.jpg"
-BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Hell Spam Bot is Alive !"
+DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://te.legra.ph/file/f79b8070fa690936713f3.jpg"
+BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Hell Spam Bot on Fire 🔥"
 
 
 BOT_VERSION = 1.0
