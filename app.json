@@ -36,31 +36,7 @@
       "description": "Enter Your Bot Token 5. Get It From @BotFather!",
       "value": "",
       "required": false
-   },
-   "BOT_TOKEN6": {
-      "description": "Enter Your Bot Token 6. Get It From @BotFather!",
-      "value": "",
-      "required": false
-  },
-    "BOT_TOKEN7": {
-      "description": "Enter Your Bot Token 7. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN8": {
-      "description": "Enter Your Bot Token 8. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN9": {
-      "description": "Enter Your Bot Token 9. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN10": {
-      "description": "Enter Your Bot Token 10. Get It From @BotFather!",
-      "value": "",
-      "required": false
+
     },
     "OWNER_NAME": {
       "description": "Enter Your Good Name Of Telegram!",
