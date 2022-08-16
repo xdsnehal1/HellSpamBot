@@ -1,5 +1,5 @@
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10 
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 from telethon import events
 from datetime import datetime
 
@@ -8,11 +8,6 @@ from datetime import datetime
 @SpamBot3.on(events.NewMessage(incoming=True, pattern='/ping'))
 @SpamBot4.on(events.NewMessage(incoming=True, pattern='/ping'))
 @SpamBot5.on(events.NewMessage(incoming=True, pattern='/ping'))
-@SpamBot6.on(events.NewMessage(incoming=True, pattern='/ping'))
-@SpamBot7.on(events.NewMessage(incoming=True, pattern='/ping'))
-@SpamBot8.on(events.NewMessage(incoming=True, pattern='/ping'))
-@SpamBot9.on(events.NewMessage(incoming=True, pattern='/ping'))
-@SpamBot10.on(events.NewMessage(incoming=True, pattern='/ping'))
 async def ping(e):
     if e.sender_id in MY_USERS:
         before = datetime.now()
