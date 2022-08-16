@@ -93,3 +93,37 @@ async def no(e):
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
         await e.edit(f"{SPAM_CMD}", buttons=BACK)
+
+
+@SpamBot1.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot2.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot3.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot4.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot5.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot6.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot7.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot8.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot9.on(events.CallbackQuery(data=b'pspam'))
+@SpamBot10.on(events.CallbackQuery(data=b'pspam'))
+async def no(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit(f"{PSPAM_CMD}", buttons=BACK)
+
+
+@SpamBot1.on(events.CallbackQuery(data=b'extras'))
+@SpamBot2.on(events.CallbackQuery(data=b'extras'))
+@SpamBot3.on(events.CallbackQuery(data=b'extras'))
+@SpamBot4.on(events.CallbackQuery(data=b'extras'))
+@SpamBot5.on(events.CallbackQuery(data=b'extras'))
+@SpamBot6.on(events.CallbackQuery(data=b'extras'))
+@SpamBot7.on(events.CallbackQuery(data=b'extras'))
+@SpamBot8.on(events.CallbackQuery(data=b'extras'))
+@SpamBot9.on(events.CallbackQuery(data=b'extras'))
+@SpamBot10.on(events.CallbackQuery(data=b'extras'))
+async def no(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit(f"{EXTRA_CMD}", buttons=BACK)
