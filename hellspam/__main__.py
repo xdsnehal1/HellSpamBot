@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from sys import argv
 from hellspam import *
-from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5, SpamBot6, SpamBot7, SpamBot8, SpamBot9, SpamBot10
+from hellspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
 
 def load_plugs(plugname):
     modules = Path(f"hellspam/plugins/{plugname}.py")
@@ -60,30 +60,7 @@ if len(argv) not in (1, 3, 4):
         print(e)
         pass
    try:
-        SpamBot6.disconnect()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot7.disconnect()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot8.disconnect()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot9.disconnect()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot10.disconnect()
-    except Exception as e:
-        print(e)
-        pass
+      
 else:
     try:
         SpamBot1.run_until_disconnected()
@@ -110,28 +87,4 @@ else:
     except Exception as e:
         print(e)
         pass
-     try:
-        SpamBot6.run_until_disconnected()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot7.run_until_disconnected()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot8.run_until_disconnected()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot9.run_until_disconnected()
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        SpamBot10.run_until_disconnected()
-    except Exception as e:
-        print(e)
-        pass
+     
